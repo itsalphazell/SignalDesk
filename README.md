@@ -8,6 +8,11 @@ Signal Desk is a premium B2B dashboard concept built to show product-grade front
 - Measured premium visual system rather than marketing-page styling
 - Built to prove dense information design and responsive product UI
 
+## Public Links
+
+- Live concept: `https://signal-desk.pages.dev`
+- Repository: `https://github.com/itsalphazell/SignalDesk`
+
 ## Commands
 
 ```bash
