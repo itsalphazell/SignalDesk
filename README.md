@@ -10,7 +10,7 @@ Signal Desk is a premium B2B dashboard concept built to show product-grade front
 
 ## Public Links
 
-- Live concept: `https://signal-desk-dp7.pages.dev`
+- Live concept: `https://signaldesk.pages.dev`
 - Repository: `https://github.com/itsalphazell/SignalDesk`
 
 ## Commands
@@ -18,7 +18,6 @@ Signal Desk is a premium B2B dashboard concept built to show product-grade front
 ```bash
 npm run dev
 npm run build
-npm run cf:deploy
 ```
 
 ## Routes
@@ -32,4 +31,4 @@ npm run cf:deploy
 ## Notes
 
 - This repo is intended as a public concept case study in a wider portfolio
-- The project is prepared for static deployment to Cloudflare Pages via the generated `out/` directory
+- Cloudflare Pages is connected to the GitHub repo, so pushes to `main` trigger production deploys automatically
