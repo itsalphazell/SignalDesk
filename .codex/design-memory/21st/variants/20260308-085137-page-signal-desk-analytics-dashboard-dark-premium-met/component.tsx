@@ -95,7 +95,7 @@ function MetricCard({ metric }: { metric: MetricData }) {
   const TrendIcon = metric.trend === "up" ? TrendingUp : metric.trend === "down" ? TrendingDown : Activity;
 
   return (
-    <div className="group relative rounded-xl border border-slate-800/50 bg-slate-900/40 p-4 backdrop-blur-sm transition-all duration-300 hover:border-slate-700/70 hover:bg-slate-900/60">
+    <div className="relative rounded-xl border border-slate-800/50 bg-slate-900/40 p-4 backdrop-blur-sm transition-all duration-300 hover:border-slate-700/70 hover:bg-slate-900/60">
       <div className="mb-3 flex items-start justify-between">
         <div className="flex items-center gap-2">
           {metric.icon ? (

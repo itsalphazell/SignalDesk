@@ -1,6 +1,39 @@
 {
   "version": 1,
   "provider": "21st",
-  "updated_at": "",
-  "entries": []
+  "updated_at": "2026-03-08T08:51:37.558901Z",
+  "entries": [
+    {
+      "id": "20260308-085137-page-signal-desk-analytics-dashboard-dark-premium-met",
+      "provider": "21st",
+      "created_at": "2026-03-08T08:51:37.553241Z",
+      "source": "manual-import",
+      "project_profile": "app-saas",
+      "design_mode": "premium-web",
+      "query": "Signal Desk analytics dashboard dark premium metrics charts",
+      "normalized_query": "signal desk analytics dashboard dark premium metrics charts",
+      "component_type": "page",
+      "tags": [
+        "analytics",
+        "dashboard",
+        "product-ui",
+        "premium",
+        "dark"
+      ],
+      "variant_ref_url": "",
+      "local_component_path": ".codex/design-memory/21st/variants/20260308-085137-page-signal-desk-analytics-dashboard-dark-premium-met/component.tsx",
+      "local_preview_path": "",
+      "shareable": true,
+      "namespace": "default",
+      "brand_tokens": [
+        "dashboard",
+        "dark",
+        "charts",
+        "desk"
+      ],
+      "notes": "Imported from the recovered first Magic Studio analytics render and wired to repo data.",
+      "dedupe_key": "c9da7a41e5059e2ce7c69aced747efe2c43807c336921b63557dae544dba11d2",
+      "source_repo_root": "C:\\app-saas"
+    }
+  ]
 }
