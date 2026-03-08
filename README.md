@@ -1,12 +1,12 @@
 ## Signal Desk
 
-Signal Desk is a premium B2B dashboard concept built to show product-grade front-end UI: overview, analytics, onboarding, projects, and settings.
+Signal Desk is a premium B2B dashboard concept built to show product-grade interface systems: overview, analytics, onboarding, projects, and settings.
 
 ## Positioning
 
 - Static concept repo for portfolio use
 - Measured premium visual system rather than marketing-page styling
-- Built to prove dense information design and responsive product UI
+- Built to prove dense information design, calmer analytics, and responsive product delivery
 
 ## Public Links
 

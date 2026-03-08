@@ -36,11 +36,11 @@ export function DashboardShell({ children }: { children: React.ReactNode }) {
       <aside className="panel rounded-[2rem] p-5 md:p-6">
         <div className="space-y-8">
           <div className="space-y-3">
-            <p className="mono-label text-muted">Signal Desk</p>
+            <p className="mono-label text-muted">Signal Desk / Concept app</p>
             <div>
               <h1 className="text-3xl font-semibold tracking-[-0.04em] text-ink">Control room for revenue operations.</h1>
               <p className="mt-3 text-sm leading-7 text-muted">
-                Measured premium for analytics, project health, onboarding, and workspace settings.
+                Measured premium for analytics, project health, onboarding, and workspace governance.
               </p>
             </div>
           </div>
@@ -54,6 +54,14 @@ export function DashboardShell({ children }: { children: React.ReactNode }) {
                 <p className="text-sm font-semibold text-ink">Workspace status</p>
                 <p className="text-xs text-muted">All critical monitors online.</p>
               </div>
+            </div>
+            <div className="mt-4 grid gap-2 text-sm text-muted">
+              <p>
+                <span className="text-ink">Positioning:</span> product UI, analytics, onboarding, settings.
+              </p>
+              <p>
+                <span className="text-ink">Use case:</span> public concept repo for portfolio-grade product delivery.
+              </p>
             </div>
           </div>
         </div>
