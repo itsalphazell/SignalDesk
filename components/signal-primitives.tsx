@@ -166,7 +166,7 @@ function getTimelineIcon(status: TimelineStatus) {
 export function TimelineFeed({
   entries,
 }: {
-  entries: Array<{ title: string; time: string; note: string; status: TimelineStatus }>;
+  entries: ReadonlyArray<{ title: string; time: string; note: string; status: TimelineStatus }>;
 }) {
   return (
     <div className="space-y-4">

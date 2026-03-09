@@ -7,23 +7,23 @@ import { DashboardNav } from "@/components/dashboard-nav";
 const copy: Record<string, { title: string; description: string }> = {
   "/": {
     title: "Overview",
-    description: "A quick command view for revenue operations, program health, and the next actions that matter.",
+    description: "A command view with mode switching, focus states, and explorable workstream detail for revenue operations.",
   },
   "/projects": {
     title: "Projects",
-    description: "Program table, owner clarity, and risk posture tuned for fast weekly review.",
+    description: "A searchable program board with selectable rows, risk filtering, and a drill-down delivery readout.",
   },
   "/analytics": {
     title: "Analytics",
-    description: "Trend reading, channel mix, and conversion health without decorative chart noise.",
+    description: "Segment-aware analytics with selectable metrics and comparative reading that behaves like a product surface.",
   },
   "/onboarding": {
     title: "Onboarding",
-    description: "A guided setup surface for new teams and operators entering the workspace.",
+    description: "A guided setup surface with clickable stages, live checklist progress, and calmer operator guidance.",
   },
   "/settings": {
     title: "Settings",
-    description: "Workspace governance, security, and notification controls arranged for scanning speed.",
+    description: "A lighter but still interactive governance surface for workspace, security, and notification controls.",
   },
 };
 
@@ -36,11 +36,11 @@ export function DashboardShell({ children }: { children: React.ReactNode }) {
       <aside className="panel rounded-[2rem] p-5 md:p-6">
         <div className="space-y-8">
           <div className="space-y-3">
-            <p className="mono-label text-muted">Signal Desk / Concept app</p>
+            <p className="mono-label text-muted">Signal Desk / Interactive prototype</p>
             <div>
               <h1 className="text-3xl font-semibold tracking-[-0.04em] text-ink">Control room for revenue operations.</h1>
               <p className="mt-3 text-sm leading-7 text-muted">
-                Measured premium for analytics, project health, onboarding, and workspace governance.
+                Measured premium for analytics, project health, onboarding, and workspace governance with explorable client-side states.
               </p>
             </div>
           </div>
@@ -57,10 +57,10 @@ export function DashboardShell({ children }: { children: React.ReactNode }) {
             </div>
             <div className="mt-4 grid gap-2 text-sm text-muted">
               <p>
-                <span className="text-ink">Positioning:</span> product UI, analytics, onboarding, settings.
+                <span className="text-ink">Positioning:</span> interactive product prototype, analytics, onboarding, settings.
               </p>
               <p>
-                <span className="text-ink">Use case:</span> public concept repo for portfolio-grade product delivery.
+                <span className="text-ink">Use case:</span> portfolio-grade product UI proving state, depth, and denser product behavior.
               </p>
             </div>
           </div>

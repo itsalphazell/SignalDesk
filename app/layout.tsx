@@ -16,10 +16,10 @@ const firaCode = Fira_Code({
 
 export const metadata: Metadata = {
   title: "Signal Desk",
-  description: "Premium B2B dashboard concept for analytics, operations, onboarding, and product-grade delivery.",
+  description: "Interactive B2B product prototype for analytics, operations, onboarding, and portfolio-grade product UI delivery.",
   openGraph: {
     title: "Signal Desk",
-    description: "A measured premium dashboard concept built to showcase product-grade interface systems and delivery.",
+    description: "A measured premium interactive prototype built to showcase product-grade interface systems, depth, and delivery.",
     type: "website",
   },
 };
